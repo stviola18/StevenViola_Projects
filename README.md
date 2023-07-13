@@ -22,3 +22,15 @@ My final method used the same method to predict count, but used the mean and sta
 Results:
 
 My simulation created a table of the top 10 most massive meteorites that will fall in the next 100 years. These results suggest that the most catastrophic meteorite will be in the year 2042 and it will weigh over 24 million pounds.
+
+# Machine Learning Bass Weight Model
+Goal:
+The goal of my project is to create a deep learning model that can read in an image of a bass(fish) and output an accurate estiation of the weight of the bass. The purpose of this is to improve fish weight verification in fishing apps like Fishbrain.
+Data Description:
+The dataset used for this project is a collection of 100 images of bass with their corresponding weights in lbs and ozs. The data was collected off of Fishbrain, where the weights of each bass are self reported by each poster. Each bass is positioned vertically in this dataset.
+Method:
+
+
+
+
+
