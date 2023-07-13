@@ -25,11 +25,24 @@ My simulation created a table of the top 10 most massive meteorites that will fa
 
 # Machine Learning Bass Weight Model
 Goal:
+
 The goal of my project is to create a deep learning model that can read in an image of a bass(fish) and output an accurate estiation of the weight of the bass. The purpose of this is to improve fish weight verification in fishing apps like Fishbrain.
+
 Data Description:
+
 The dataset used for this project is a collection of 100 images of bass with their corresponding weights in lbs and ozs. The data was collected off of Fishbrain, where the weights of each bass are self reported by each poster. Each bass is positioned vertically in this dataset.
+
 Method:
 
+The initial method tried was using Pythons Pytorch machine learning package to train a model using 80 bass images and keeping 20 for validation. Training involves the model reading in the images and their corresponding weights in lbs.
+
+Results:
+
+The model had a valid loss of 1.9096. Although this is relatively high, in practice using IMG_3216.png the model predicted the weight of the bass with 90% accuracy. 
+
+Conclusion:
+
+With a valid loss of 1.9096, the model is not yet accurate. A possible reason for this might be because the nature of the dataset. Since the bass weights are self reported, they may not have been reported accuratley, which would train the model incorrectly. Another reason may be because the images used were at different angles and perceptions. Future work should include having more standardizations for the data, like having the image taken from a fixed distance and angle. 
 
 
 
